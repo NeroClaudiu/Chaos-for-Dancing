@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "rules",
+    "Text": [
+      "<yellow>There are no rules!",
+      "<yellow>Chaos event is live. Have Fun!",
+      "<yellow>Do /kit chaos and /kits to view all kits."
+    ]
+  },
+  {
+    "Name": "help",
+    "Text": [
+      "Type /serverrules and read the link to get started."
+    ]
+  },
+  {
+    "Name": "website",
+    "Text": [
+      "<cyan>Dancing Sheeps"
+    ]
+  }
+]

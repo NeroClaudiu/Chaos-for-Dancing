@@ -1,0 +1,138 @@
+{
+  "Locale": "en",
+  "PrivateMessage": {
+    "FormatFrom": "(From {0}): {1}",
+    "FormatTo": "(To {0}): {1}",
+    "FormatSpy": "<gray>Spy: {0} -> {1}: {2}",
+    "ConsoleDisplayName": "*console*"
+  },
+  "UnfreezeOnDeath": true,
+  "UnfreezeOnQuit": true,
+  "EnableTextCommands": true,
+  "EnableDeathMessages": false,
+  "EnableJoinLeaveMessage": false,
+  "ShowPermissionOnErrorMessage": true,
+  "SaveCommandCooldowns": false,
+  "EnablePollRunningMessage": true,
+  "PollRunningMessageCooldown": 20,
+  "ServerFrameRate": -1,
+  "BackDelay": 10,
+  "ItemSpawnLimit": 10,
+  "AntiSpam": {
+    "Enabled": true,
+    "Interval": 2
+  },
+  "Updater": {
+    "CheckUpdates": true,
+    "DownloadLatest": true,
+    "AlertOnJoin": false
+  },
+  "Home": {
+    "TeleportDelay": 10,
+    "CancelTeleportWhenMove": false
+  },
+  "Warp": {
+    "TeleportDelay": 5,
+    "CancelTeleportWhenMove": false,
+    "PerWarpPermission": true
+  },
+  "VehicleFeatures": {
+    "RefuelPercentage": 20,
+    "RepairPercentage": 70
+  },
+  "ItemFeatures": {
+    "ReloadPercentage": 80,
+    "RepairPercentage": 80
+  },
+  "Kit": {
+    "ShowCost": true,
+    "ShowCostIfZero": false,
+    "CostFormat": "{0}({1}{2})",
+    "GlobalCooldown": 0,
+    "ResetGlobalCooldownWhenDie": false
+  },
+  "Tpa": {
+    "CancelTeleportWhenMove": false,
+    "ExpireDelay": 60,
+    "TeleportDelay": 0
+  },
+  "Economy": {
+    "UseXp": false,
+    "XpCurrency": "Xp",
+    "UconomyCurrency": "DP"
+  },
+  "AutoAnnouncer": {
+    "Interval": 242,
+    "RandomMessages": false,
+    "Enabled": false,
+    "Messages": [
+       "<FF8A28>Server: Do /kits to see all available kits",
+       "<FF8A28>Server: We have a discord server do /discord to join!",
+       "<FF8A28>Server: Chaos Days will be held on May 28 17:00 UTC to May 31st 17:00 UTC"
+    ]
+  },
+  "AutoCommands": {
+    "Commands": [
+      {
+        "RunOnce": false,
+        "Timer": 3610,
+        "Commands": [
+          "say \"Server: Be sure to stay hydrated!\" 0 245 245",
+          "item * soda"
+        ]
+      },
+      {
+        "RunOnce": true,
+        "Timer": 5400,
+        "Commands": [
+	  "say \"Server: Beat the summer heat with fresh coconuts!\" 0 245 245",
+    	  "item * split 4"
+        ]
+      },
+      {
+        "RunOnce": false,
+        "Timer": 7196,
+        "Commands": [
+	  "say \"All vehicles are going to explode in 10 seconds. Watch out!\" 245 0 0",
+    	  ""
+        ]
+      },
+      {
+        "RunOnce": false,
+        "Timer": 7200,
+        "Commands": [
+	  "say \"Get away from vehicles! They are about to explode!\" 245 0 0",
+          ""
+        ]
+      },
+      {
+        "RunOnce": false,
+        "Timer": 7202,
+        "Commands": [
+	  "say \"All vehicle are respawned now. Find yourself a new one.\" 245 0 0",
+          ""
+        ]
+      },
+      {
+        "RunOnce": false,
+        "Timer": 7220,
+        "Commands": [
+	  "say \"Vehicles reset every 2 hours\" 245 0 0",
+    	  ""
+        ]
+      }
+    ],
+    "Enabled": true
+  },
+  "GiveItemBlacklist": [],
+  "VehicleBlacklist": [],
+  "EnabledSystems": [
+    "kits",
+    "warps"
+  ],
+  "CommandsToOverride": [],
+  "DisabledCommands": [
+	"tpa",
+	"home"
+]
+}
