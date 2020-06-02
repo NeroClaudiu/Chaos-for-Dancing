@@ -3,7 +3,7 @@
     "Icon": "",
     "Thumbnail": "",
     "Desc_Hint": "The Dancing Family",
-    "Desc_Full": "TPA | Home | Kits | Survival | CHAOS MODE",
+    "Desc_Full": "TPA | Home | Kits | CHAOS MODE",
     "Desc_Server_List": ""
   },
   "Server": {
@@ -235,8 +235,8 @@
       "Has_Tire_Chance": 1.0,
       "Respawn_Time": 10.0,
       "Unlocked_After_Seconds_In_Safezone": 3600.0,
-      "Armor_Multiplier": 0.5,
-      "Child_Explosion_Armor_Multiplier": 0.5,
+      "Armor_Multiplier": 0.1,
+      "Child_Explosion_Armor_Multiplier": 0.1,
       "Gun_Lowcal_Damage_Multiplier": 0.0,
       "Gun_Highcal_Damage_Multiplier": 0.0,
       "Melee_Damage_Multiplier": 1.0,
@@ -296,18 +296,18 @@
     },
     "Barricades": {
       "Decay_Time": 3456000,
-      "Armor_Lowtier_Multiplier": 0.05,
-      "Armor_Hightier_Multiplier": 0.05,
+      "Armor_Lowtier_Multiplier": 0.2,
+      "Armor_Hightier_Multiplier": 0.1,
       "Gun_Lowcal_Damage_Multiplier": 1.0,
-      "Gun_Highcal_Damage_Multiplier": 2.0,
+      "Gun_Highcal_Damage_Multiplier": 1.0,
       "Melee_Damage_Multiplier": 1.0
     },
     "Structures": {
       "Decay_Time": 3456000,
-      "Armor_Lowtier_Multiplier": 0.05,
-      "Armor_Hightier_Multiplier": 0.05,
+      "Armor_Lowtier_Multiplier": 0.2,
+      "Armor_Hightier_Multiplier": 0.1,
       "Gun_Lowcal_Damage_Multiplier": 1.0,
-      "Gun_Highcal_Damage_Multiplier": 2.0,
+      "Gun_Highcal_Damage_Multiplier": 1.0,
       "Melee_Damage_Multiplier": 1.0
     },
     "Players": {
